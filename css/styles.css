@@ -115,7 +115,6 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -127,7 +126,6 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  /* identical to box height, or 187% */
   letter-spacing: 0.06em;
   color: #ffffff;
 }
@@ -152,7 +150,6 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
 }

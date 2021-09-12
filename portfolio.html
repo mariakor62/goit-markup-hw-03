@@ -21,83 +21,178 @@
 <body>
     <!--Шапка-->
     <header class="header">
-        <a class="logo" href="./index.html"> <span class="web">Web</span>Studio</a>
-        <nav class="header-nav">
-            <ul class="header-list">
-                <li><a class="header-link" href="./index.html">Студия</a></li>
-                <li><a class="header-link" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="header-link" href="/">Контакты</a></li>
+        <div class="container main-nav">
+            <a class="header-logo" href="./index.html"> <span class="web">Web</span>Studio</a>
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li class="item"><a class="link current" href="./index.html">Студия</a></li>
+                    <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="item"><a class="link" href="/">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="header-right">
+                <li class="contact"><a class="header-mail current"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="contact"><a class="header-tel" href="+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="header-right">
-            <li><a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="header-tel" href="+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
     <main>
         <!--Projects-->
-        <section class="projects">
-            <ul class="menu-list">
-                <li><button type="button" class="button">Все</button></li>
-                <li><button type="button" class="button">Веб-сайты</button></li>
-                <li><button type="button" class="button">Приложения</button></li>
-                <li><button type="button" class="button">Дизайн</button></li>
-                <li><button type="button" class="button">Маркетинг</button></li>
-            </ul>
-            <ul class="projects-list">
-                <li><img src="./images/img5.jpg" alt="Фото команда" width="370" height="294">
-                    <h3 class="projects-title">Технокряк</h3>
-                    <p class="projects-text">Веб-сайт</p>
-                </li>
-                <li><img src="./images/img6.jpg" alt="Постер Баскетбола" width="370" height="294">
-                    <h3 class="projects-title">Постер New Orlean vs Golden Star</h3>
-                    <p class="projects-text">Дизайн</p>
-                </li>
-                <li><img src="./images/img7.jpg" alt="Ресторан Фото" width="370" height="294">
-                    <h3 class="projects-title">Ресторан Seafood</h3>
-                    <p class="projects-text">Приложение</p>
-                </li>
-                <li><img src="./images/img8.jpg" alt="Фото ло" width="370" height="294">
-                    <h3 class="projects-title">Проект Prime</h3>
-                    <p class="projects-text">Маркетинг</p>
-                </li>
-                <li><img src="./images/img9.jpg" alt="Проект Boxes" width="370" height="294">
-                    <h3 class="projects-title">Проект Boxes</h3>
-                    <p class="projects-text">Приложение</p>
-                </li>
-                <li><img src="./images/img10.jpg" alt="Inspiration has no Borders" width="370" height="294">
-                    <h3 class="projects-title">Inspiration has no Borders</h3>
-                    <p class="projects-text">Веб-сайт</p>
-                </li>
-                <li><img src="./images/img11.jpg" alt="Издание Limited Edition" width="370" height="294">
-                    <h3 class="projects-title">Издание Limited Edition</h3>
-                    <p class="projects-text">Дизайн</p>
-                </li>
-                <li><img src="./images/img12.jpg" alt="Проект LAB" width="370" height="294">
-                    <h3 class="projects-title">Проект LAB</h3>
-                    <p class="projects-text">Маркетинг</p>
-                </li>
-                <li><img src="./images/img13.jpg" alt="Growing Business" width="370" height="294">
-                    <h3 class="projects-title">Growing Business</h3>
-                    <p class="projects-text">Приложение</p>
-                </li>
-            </ul>
+        <section class="section">
+            <div class="menu container">
+                <ul class="menu-list">
+                    <li class="site-link"><button type="button" class="button current">Все</button></li>
+                    <li class="site-link"><button type="button" class="button">Веб-сайты</button></li>
+                    <li class="site-link"><button type="button" class="button">Приложения</button></li>
+                    <li class="site-link"><button type="button" class="button">Дизайн</button></li>
+                    <li class="site-link"><button type="button" class="button">Маркетинг</button></li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <ul class="projects-list">
+                    <li class="items">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img5.jpg" alt="Фото команда" width="370" height="294">
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="projects-title">Технокряк</h3>
+                                <p class="projects-text">Веб-сайт</p>
+                            </div>
+                        </article>
+                    </li>
+
+
+                    <li class="items">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img6.jpg" alt="Постер Баскетбола" width="370" height="294">
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="projects-title">Постер New Orlean vs Golden Star</h3>
+                                <p class="projects-text">Дизайн</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="items">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img7.jpg" alt="Ресторан Фото" width="370" height="294">
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="projects-title">Ресторан Seafood</h3>
+                                <p class="projects-text">Приложение</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="items">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img8.jpg" alt="Фото ло" width="370" height="294">
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="projects-title">Проект Prime</h3>
+                                <p class="projects-text">Маркетинг</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="items">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img9.jpg" alt="Проект Boxes" width="370" height="294">
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="projects-title">Проект Boxes</h3>
+                                <p class="projects-text">Приложение</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="items">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img10.jpg" alt="Inspiration has no Borders" width="370" height="294">
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class=" projects-title">Inspiration has no Borders</h3>
+                                <p class="projects-text">Веб-сайт</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="items">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img11.jpg" alt="Издание Limited Edition" width="370" height="294">
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="projects-title">Издание Limited Edition</h3>
+                                <p class="projects-text">Дизайн</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="items">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img12.jpg" alt="Проект LAB" width="370" height="294">
+                            </div>
+
+                            <div class="card-content">
+                                <h3 class="projects-title">Проект LAB</h3>
+                                <p class="projects-text">Маркетинг</p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="items">
+                        <article class="card">
+                            <div class="card-thumb">
+                                <img src="./images/img13.jpg" alt="Growing Business" width="370" height="294">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="projects-title">Growing Business</h3>
+                                <p class="projects-text">Приложение</p>
+                            </div>
+                        </article>
+                    </li>
+
+                </ul>
+            </div>
         </section>
     </main>
     <!--Contact us-->
-    <footer class="contacts">
-        <div class="contacts-box">
-            <a class="logo" href="/"> <span class="web">Web</span><span class="studio">Studio</span></a>
-            <address class="contacts-address">г. Киев, пр-т Леси Украинки, 26<br></address>
-            <ul class="list">
-                <li><a class="contacts-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+    <section class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <a class="logo" href="/"> <span class="web">Web</span><span class="studio">Studio</span></a>
+            </div>
+            <div class="footer-contacts">
+                <address class="contacts-address">г. Киев, пр-т Леси Украинки, 26<br></address>
+                <ul class="footer-list">
+                    <li class="footer-item"><a class="contacts-mail"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li footer-item><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div>
         </div>
-    </footer>
+    </section>
 </body>
 
 </html>

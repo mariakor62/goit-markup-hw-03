@@ -53,7 +53,6 @@ img {
   height: auto;
 }
 .section {
-  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -73,11 +72,7 @@ img {
 
 /* Header */
 .page-header {
-  width: 1600px;
   border-bottom: 1px solid #ececec;
-  padding-left: 15px;
-  padding-right: 15px;
-
 }
 .container.main-nav {
   width: 1200px;
@@ -90,9 +85,11 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.header-nav {
+  margin-left: 80px;
+}
 .header-list {
   display: flex;
-  margin-left: 80px;
 }
 .header-list .link {
   display: block;
@@ -184,10 +181,6 @@ img {
 }
 /* Hero */
 .hero {
-  width: 1600px;
-  padding-left: 15px;
-  padding-right: 15px;
-  
   text-align: center;
   background-color: #2f303a;
 }
@@ -202,7 +195,7 @@ img {
   margin-top: 0;
   margin-bottom: 30px;
 }
-.button-hero .button-text.current {
+.button-text.current {
   min-width: 200px;
   background-color: #2196f3;
   color: #ffffff;
@@ -216,27 +209,48 @@ img {
   letter-spacing: 0.06em;
 }
 
-.button-hero {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-  min-width: 200px;
-  padding: 10px 32px;
-  display: inline-block;
-  align-items: center;
-  text-align: center;
+.button {
+  font family: 'Roboto';
+  font style: bold;
+  font size: 16px;
+  line height: 30px;
+  line height: 160%;
+  align: center;
+  vertical align: center;
+  letter spacing: 6%;
+  fill: solid;
+  color: #FFFFFF;
 }
 
-.button-hero:hover,
-.button-hero:focus {
+
+
+
+
+
+
+
+
+
+/* font-family: Roboto; */
+  /* font-style: normal; */
+  /* font-weight: bold; */
+  /* font-size: 16px; */
+  /* line-height: 1.87; */
+
+  /* letter-spacing: 0.06em; */
+  /* color: #ffffff; */
+  /* background: #2196f3; */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+
+  /* min-width: 200px; */
+  /* padding: 10px 32px; */
+  /* display: inline-block; */
+  /* align-items: center; */
+  /* text-align: center; */
+/* } */
+
+.button:hover,
+.button:focus {
   min-width: 200px;
   padding: 10px 32px;
   font-weight: bold;
@@ -395,7 +409,6 @@ img {
 
 /* Footer Contacts */
 .footer {
-  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #2f303a;

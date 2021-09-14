@@ -1,4 +1,4 @@
-second fill color #F5F4FA */
+second fill color #F5F4FA
 hero, footer fill color #2F303A
 font Roboto 400,500,700,900 
 font Raleway 700
@@ -76,15 +76,8 @@ img {
   border-bottom: 1px solid #ececec;
 }
 .container.main-nav {
-  width: 1200px;
   display: flex;
   align-items: center;
-
-  padding-left: 15px;
-  padding-right: 15px;
-  
-  margin-left: auto;
-  margin-right: auto;
 }
 .header-nav {
   margin-left: 80px;
@@ -245,13 +238,8 @@ img {
 
 /* Features section */
 
-.features {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
 .features-list {
   display: flex;
-  justify-content: space-between;
 }
 .features-list > .features-item {
   width: 270px;
@@ -286,7 +274,7 @@ img {
 
 .cards-title {
   padding-top: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -309,7 +297,7 @@ img {
 }
 .team-title {
   padding-top: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -368,17 +356,7 @@ img {
 
 /* Footer Contacts */
 .footer {
-  padding-left: 15px;
-  padding-right: 15px;
   background-color: #2f303a;
-}
-.footer.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-
-  margin-right: auto;
-  margin-left: auto;
 }
 .footer-logo {
   width: 145px;

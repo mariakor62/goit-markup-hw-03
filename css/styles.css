@@ -4,6 +4,7 @@ font Roboto 400,500,700,900
 font Raleway 700
 font-family: 'Raleway', sans-serif
    'Roboto', sans-serif;
+
 :root {
   --main-title-color: #ffffff;
   --secondary-title-color: #212121;
@@ -456,9 +457,6 @@ padding-bottom: 200px;
   border: none;
 }
 
-.cards {
-  padding-bottom: 94px;
-}
 .projects-list {
   display: flex;
   flex-wrap: wrap;
